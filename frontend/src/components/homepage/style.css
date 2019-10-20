@@ -1,10 +1,13 @@
-.container, .selectService{
+.containerx, .selectService{
     border: 1px solid black;
     padding:10px;
-    margin: 5px;
+}
+
+.containerx{
+    width: 80%;
+    margin: auto;
 }
 .selectService{
-    display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,7 +18,7 @@
 .selectService label{
     flex-grow: 1;
     text-align: center;
-    padding: 100px;
+    padding: 100px 0px;
 }
 
 .selectService label:hover{
@@ -23,20 +26,14 @@
     cursor: pointer;
 }
 
-input[type="radio"] {
+.selectService input[type="radio"] {
     display:none;
 }
 
 .field{
-    display: flex;
-    flex-direction: column;
+    padding:10px 0px;
 }
 
-.field .label{
-    text-align: left;
-    padding: 10px 0px;
-}
-
-input[type="text"]{
-    height:20px;
+label{
+    margin-bottom: 0px;
 }
