@@ -1,4 +1,10 @@
 
+<<<<<<< HEAD
+=======
+
+#nav{
+
+>>>>>>> 659074a23c29f8d5f8421440a91b5f636ac15f3c
 #main{
     background-color: #FFE381;
 }
@@ -16,6 +22,10 @@ ul{
     background-color: #10264E;
 }
 
+<<<<<<< HEAD
+=======
+    border:1px solid black;
+>>>>>>> 659074a23c29f8d5f8421440a91b5f636ac15f3c
 
 li{
     display: flex;
@@ -26,6 +36,10 @@ li{
 
 
 #nav-h1{
+<<<<<<< HEAD
+=======
+.nav-item a{
+>>>>>>> 659074a23c29f8d5f8421440a91b5f636ac15f3c
     color:white;
 }
 
