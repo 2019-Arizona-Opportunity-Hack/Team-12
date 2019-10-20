@@ -9,16 +9,25 @@ const RequestForm = ({updateService, updateGender, changeHandler, hSub}) => {
         <div className="containerx">
             <form autocomplete="off" onSubmit={hSub}>
                 <div className="form-group">
-                    <label>Name </label>
-                    <input type="text" id="userName" name="name"
-                        onChange={changeHandler}/>
+                    <label>Pickup Location</label>
+                    <input type="text" id="pickup"className="form-control"></input>
                 </div>
                 <div className="form-group">
-                    <label>Address</label>
-                    <input type="text" id="currentLocation" name="address"
+                    <label>Nickname or Codeword</label>
+                    <input type="text" id="userName" name="name" className="form-control"
                         onChange={changeHandler}/>
                 </div>
+                    <div className="form-group">
+                        <label>Current Location</label>
+                        <input type="text" id="currentLocation" name="address" className="form-control"
+                            onChange={changeHandler}/>
+                    </div>
                 <div className="form-group">
+                    <label>Destination</label>
+                    <input type="text" id="destination" name="destination" className="form-control" />
+                </div>
+                <div className="form-row">
+                <div className="form-group col-md-6">
                     <label>Gender</label>
                     <input type="radio" value="female" name="gender"
                         onChange={updateGender} />
@@ -27,11 +36,13 @@ const RequestForm = ({updateService, updateGender, changeHandler, hSub}) => {
                         onChange={updateGender} />
                     <label for="male">Male</label>
                 </div>
-                <div className="form-group">
-                    <label>Age</label>
+                <div className="form-group col-md-6">
+                    <label id="labelage">Age</label>
                     <input type="number" name="age" min="0" max="100"
                         onChange={changeHandler}/>
                 </div>
+                </div>
+
                 <div className="form-group">
                     <label>Are you traveling alone?</label>
                     <input type="radio" id="alone" name="numPeople"/>
@@ -40,7 +51,7 @@ const RequestForm = ({updateService, updateGender, changeHandler, hSub}) => {
                     <label for="morePeople">No</label>
                 </div>
                 <div className="form-group">
-                    <label> How many additional people will you be travelling with (not including yourself)</label>
+                    <label id="sizelabel"> How many additional people will you be travelling with (not including yourself)</label>
                     <input type="number" name="numPeople" min="1" max="10"/>
                 </div>
                 <div className="form-group">
@@ -50,8 +61,15 @@ const RequestForm = ({updateService, updateGender, changeHandler, hSub}) => {
                     <input type="radio" id="withoutPet" name="hasPets" />
                     <label for="withoutPet">No</label>
                 </div>
-                <div>
-                    <input type="submit" />
+                <div className="row">
+                    <div className="col text-center">
+                        <button type="submit" className="btn btn-primary">
+                            Submit
+                        </button>
+                    </div>
+                    <div>
+                        <button type="Safety Exit" classname="btn btn-danger">Safety Exit</button>
+                    </div>
                 </div>
             </form>
         </div>
