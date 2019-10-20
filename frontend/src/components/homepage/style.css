@@ -1,5 +1,42 @@
-.container{
+.container, .selectService{
     border: 1px solid black;
     padding:10px;
     margin: 5px;
+}
+.selectService{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0px;
+}
+
+.selectService label{
+    flex-grow: 1;
+    text-align: center;
+    padding: 100px;
+}
+
+.selectService label:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+.field .label{
+    text-align: left;
+    padding: 10px 0px;
+}
+
+input[type="text"]{
+    height:20px;
 }

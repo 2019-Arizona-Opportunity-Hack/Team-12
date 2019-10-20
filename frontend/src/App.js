@@ -8,7 +8,7 @@ import Landing from "./components/homepage/index";
 function App() {
   return (
     <div>
-      <ul>
+      <ul id="nav">
         <li>
           <Link to="/cabsPage">Go to cabs page</Link>
         </li>
