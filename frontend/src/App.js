@@ -7,16 +7,16 @@ import Landing from "./components/homepage/index";
 
 function App() {
   return (
-    <div>
-      <ul id="nav">
-        <li>
-          <Link to="/cabsPage">Go to cabs page</Link>
+    <div id="main">
+      <ul className="nav justify-content-end">
+        <li class="nav-item">
+          <Link to="/cabsPage">Ride Donors</Link>
         </li>
-        <li>
-          <Link to="/hotelsPage">Go to hotels page</Link>
+        <li className="nav-item">
+          <Link to="/hotelsPage">Roof Donors</Link>
         </li>
-        <li>
-            <Link to="/homepage">Landing Page</Link>
+        <li className="nav-item">
+            <Link to="/homepage">Request a Service</Link>
         </li>
       </ul>
       <Route exact path="/cabsPage" component={Cabs}/>
