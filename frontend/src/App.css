@@ -1,5 +1,7 @@
 
+
 #nav{
+
 #main{
     background-color: #FFE381;
 }
@@ -16,14 +18,16 @@ ul{
     padding: 0px;
     background-color: #10264E;
 }
-#nav-id{
+
     border:1px solid black;
+
 li{
     display: flex;
     align-items: center;
     flex-grow: 1;
     justify-content: center;
 }
+
 
 #nav-h1{
 .nav-item a{

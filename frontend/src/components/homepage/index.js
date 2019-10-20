@@ -71,7 +71,6 @@ class App extends React.Component{
         console.log(this.state);
 
 
-
         return !serviceOption ?
             <div>
                 <h1>Request a service</h1>
@@ -85,7 +84,8 @@ class App extends React.Component{
                 <RequestForm
                     updateService={this.updateService}
                     changeHandler={this.changeHandler}
-                    updateGender={this.updateGender} hSub={this.handleSubmit}/>
+                    updateGender={this.updateGender}
+                    serviceOption={this.state.serviceOption}/>
             </div>
     }
 

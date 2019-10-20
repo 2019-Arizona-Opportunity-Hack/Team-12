@@ -46,6 +46,27 @@
     display:none;
 }
 
+input[type="radio"]{
+    margin:10px;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.bt{
+    margin:5px;
+}
+
+.notBold{
+    font-weight: normal;
+}
+
+label{
+    font-weight:bolder;
+}
+
 .field{
     padding:10px 0px;
 }
@@ -60,4 +81,6 @@ label{
 
 #sizelabel{
     padding-right: 15px;
+
 }
+

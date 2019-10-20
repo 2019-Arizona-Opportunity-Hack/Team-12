@@ -8,18 +8,6 @@ import Landing from "./components/homepage/index";
 
 function App() {
   return (
-      <BrowserRouter>
-        <div>
-            <Switch>
-              <Route exact path='/' component={Landing} />
-              <Route exact path='/hotelsPage' component={Hotels} />
-              <Route exact path='/cabsPage' component={Cabs} />
-              <Route render={() => <h3>No Match</h3>} />
-            </Switch>
-        </div>
-      </BrowserRouter>
-
-    
     <div id="main">
       <ul className="nav justify-content-end">
         <li className="nav-item">
