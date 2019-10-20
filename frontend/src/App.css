@@ -1,3 +1,7 @@
+
+
+#nav{
+
 #main{
     background-color: #FFE381;
 }
@@ -15,6 +19,8 @@ ul{
     background-color: #10264E;
 }
 
+    border:1px solid black;
+
 li{
     display: flex;
     align-items: center;
@@ -22,6 +28,8 @@ li{
     justify-content: center;
 }
 
+
+#nav-h1{
 .nav-item a{
     color:white;
 }

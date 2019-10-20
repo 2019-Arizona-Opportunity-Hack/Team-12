@@ -1,0 +1,1 @@
+exports.personRouter = require("./people");
