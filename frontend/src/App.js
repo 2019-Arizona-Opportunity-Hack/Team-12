@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Route, Link } from "react-router-dom";
+//import { Route, Link } from "react-router-dom";
+import { Route, BrowserRouter, Switch }from "react-router-dom"
 import Cabs from "./components/cabs/index";
 import Hotels from "./components/hotels/index";
 import Landing from "./components/homepage/index";
