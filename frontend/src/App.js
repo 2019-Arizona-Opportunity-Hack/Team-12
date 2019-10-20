@@ -9,7 +9,7 @@ function App() {
   return (
     <div id="main">
       <ul className="nav justify-content-end">
-        <li class="nav-item">
+        <li className="nav-item">
           <Link to="/cabsPage">Ride Donors</Link>
         </li>
         <li className="nav-item">
