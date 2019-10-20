@@ -2,7 +2,6 @@
     padding:10px;
 }
 
-
 .containerx{
     width: 80%;
     margin: 50px auto;
@@ -44,6 +43,27 @@
 
 .selectService input[type="radio"] {
     display:none;
+}
+
+input[type="radio"]{
+    margin:10px;
+}
+
+.formButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.bt{
+    margin:5px;
+}
+
+.notBold{
+    font-weight: normal;
+}
+
+label{
+    font-weight:bolder;
 }
 
 .field{

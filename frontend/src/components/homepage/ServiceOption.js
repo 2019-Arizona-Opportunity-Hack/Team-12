@@ -12,7 +12,7 @@ const ServiceOption =({updateService})=>{
                 <label  htmlFor="selectHotel"><input type="radio" id="selectHotel" name="typeOfService"
                     onChange={updateService} value="hotel"/>Roof</label>
 
-                <label  htmlFor="selectCab"><input type="radio" id="selectBoth" name="typeOfService"
+                <label  htmlFor="selectBoth"><input type="radio" id="selectBoth" name="typeOfService"
                     onChange={updateService} value="both" />Both</label>
 
             </div>
