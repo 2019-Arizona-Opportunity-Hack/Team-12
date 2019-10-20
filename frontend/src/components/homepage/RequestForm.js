@@ -4,10 +4,10 @@ import Gender from './chooseGender.js';
 import Age from './chooseAge.js';
 import ServiceOption from './ServiceOption.js'
 
-const RequestForm = ({updateService, updateGender, changeHandler}) => {
+const RequestForm = ({updateService, updateGender, changeHandler, hSub}) => {
     return(
         <div className="containerx">
-            <form autocomplete="off">
+            <form autocomplete="off" onSubmit={hSub}>
                 <div className="form-group">
                     <label>Name </label>
                     <input type="text" id="userName" name="name"
